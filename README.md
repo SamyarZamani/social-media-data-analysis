@@ -40,6 +40,8 @@ This project analyzes sentiment and user engagement patterns in Persian social m
 - **Platform Comparison**: Performance comparison across social media platforms
 
 ## 📁 Project Structure
+
+```
 social-media-data-analysis/
 ├── data/
 │ └── sentimentdataset.csv
@@ -51,54 +53,57 @@ social-media-data-analysis/
 │ └── posts_hour.png
 ├── requirements.txt
 └── README.md
+```
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 - Python 3.7+
 - Jupyter Notebook or Google Colab
-
 ### Installation
-```bash
+```
 pip install -r requirements.txt
-Usage
-Clone the repository
+```
+### Usage
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/SamyarZamani/social-media-data-analysis.git
+   cd social-media-data-analysis
+   ```
+2. **Open the notebook**
+   ```
+   jupyter notebook social-media-sentiment-engagement.ipynb
+   ```
 
-Open social-media-sentiment-engagement.ipynb in Jupyter Notebook
+## 📊 Data Description
 
-Run the cells sequentially to reproduce the analysis
+The dataset includes:
+- Text content of social media posts  
+- Sentiment labels (**Positive**, **Negative**, **Neutral**)  
+- Timestamp information  
+- User and platform data  
+- Engagement metrics (Likes, Retweets)  
+- Geographic and temporal features  
 
-📊 Data Description
-The dataset contains:
+---
 
-Text content of social media posts
+## 🎯 Key Findings
 
-Sentiment labels (Positive, Negative, Neutral)
+- **Platform Performance:** Instagram consistently showed higher engagement rates  
+- **Timing Matters:** Posts published in evening hours received more interaction  
+- **Content Patterns:** Positive sentiment posts generally received more engagement  
+- **User Behavior:** Clear patterns in user activity throughout the day and week  
 
-Timestamp information
+---
 
-User and platform data
+## 👥 Contributors
 
-Engagement metrics (Likes, Retweets)
+- Data Analysis and Visualization  
+- Sentiment Classification  
+- Pattern Recognition  
 
-Geographic and temporal features
+---
 
-🎯 Key Findings
-Platform Performance: Instagram consistently showed higher engagement rates
+## 📄 License
 
-Timing Matters: Posts published in evening hours received more interaction
-
-Content Patterns: Positive sentiment posts generally received more engagement
-
-User Behavior: Clear patterns in user activity throughout the day and week
-
-👥 Contributors
-Data Analysis and Visualization
-
-Sentiment Classification
-
-Pattern Recognition
-
-📄 License
-This project is open source and available under the MIT License.
-
+This project is open source and available under the **MIT License**.
